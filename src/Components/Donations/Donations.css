@@ -1,0 +1,20 @@
+.donation-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+.cards-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
+.list-wrap {
+    min-width: 400px;
+    max-width: 400px;
+    background: gold;
+    margin-left: 20px;
+}
+@media (min-width: 1440px){
+    .list-wrap {
+        margin-left: 0;
+    }
+}

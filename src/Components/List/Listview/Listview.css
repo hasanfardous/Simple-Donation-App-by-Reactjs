@@ -1,0 +1,17 @@
+.list-view {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px solid #e0bd00;
+    text-align: left;
+    align-items: center;
+}
+.list-view div {
+    display: flex;
+    align-items: center;
+}
+.list-view img {
+    padding-right: 5px;
+    height: 70px;
+    width: 100px;
+}

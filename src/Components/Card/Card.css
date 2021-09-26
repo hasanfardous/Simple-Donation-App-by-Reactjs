@@ -1,0 +1,41 @@
+.card {
+    background: gold;
+    margin-bottom: 30px;
+}
+.card img {
+    height: 200px;
+    width: 100%;
+}
+.card:hover img {
+    filter: blur(1px);
+}
+.card-info {
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.add-to-list {
+    text-decoration: none;
+    background: #fdfb92;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 15px 0 0px;
+    transition: all 0.3s;
+}
+.add-to-list:hover {
+    background: #ffffff;
+}
+.card-info h2 {
+    margin: 0;
+}
+.card-info p {
+    margin: 3px 0;
+}

@@ -1,0 +1,8 @@
+{
+  "short_name": "Donation App",
+  "name": "Charity/Donation App To Help Them",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
